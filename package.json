@@ -1,0 +1,19 @@
+{
+  "name": "chat-noir",
+  "version": "1.0.0",
+  "description": "This is where I am going to create my first public repo.  And figure out how to use GitHub.",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chatno1r/chat-noir.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chatno1r/chat-noir/issues"
+  },
+  "homepage": "https://github.com/chatno1r/chat-noir#readme"
+}
