@@ -8,13 +8,6 @@ angular.module("ChatNoir", ["ngRoute", "ngResource", "ngAnimate", "ChatNoir.cont
         templateUrl: "views/welcome.html",
         controller: "WecomeController"
     })
-    // .when("/contact", {
-    //     templateUrl: "views/contact.html"
-    // })
-    // .when("/bugs", {
-    //     templateUrl: "views/bugs.html",
-    //     controller: "BugsController"
-    //})
     .otherwise({
         redirectTo: "/"
     });
