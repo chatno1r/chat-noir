@@ -1,0 +1,42 @@
+<h1>Black and White Page</h1>
+<button ng-click="bool=!bool" id="cat-button"><img src="/views/images/10788-illustration-of-a-cat-silhouette-pv.png" alt="" id="small-cat"></button>
+
+<button ng-click="toggleImg()" id="cat-button"><img src="/views/images/10788-illustration-of-a-cat-silhouette-pv.png" alt="" id="small-cat"></button>
+<!--<div ng-if="bool" class="fade">
+   Fade me in out
+</div>
+<button ng-click="bool=true">Fade In!</button>
+<button ng-click="bool=false">Fade Out!</button>-->
+
+<!--<div ng-show="bool" class="fade">-->
+<div ng-show="bool" class="gray">
+    <h2>Chene Blanc</h2>
+    <img src="/views/images/tree-34537_960_720.png" alt="" id="tree">
+
+</div>
+<div ng-show="!bool" class="black">
+    <h2>Chat Noir</h2>
+    <img src="/views/images/Black_Cat_02812_svg_vector_nevit.svg.png" alt="" id="cat">
+</div>
+
+
+<div ng-class="{on:onOff}" class="highlight">
+  Highlight this box
+</div>
+<button ng-click="onOff=!onOff">Toggle</button>
+<!--
+<div ng-repeat="item in items" class="slide">
+  {{ item }}
+</div>-->
+
+<!--<div ng-class="color" class="colorful">
+  this box is moody
+</div>
+<button ng-click="color='red'">Change to red</button>
+<button ng-click="color='blue'">Change to blue</button>
+<button ng-click="color='green'">Change to green</button>-->
+
+<div id="cf2" class="shadow">
+  <img class="bottom" src="/views/images/tree-34537_960_720.png" id="tree"/>
+  <img class="top" src="/views/images/Black_Cat_02812_svg_vector_nevit.svg.png" id="cat"/>
+</div>
